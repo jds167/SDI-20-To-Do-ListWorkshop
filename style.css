@@ -1,3 +1,26 @@
 h1 {
     color: purple;
 }
+
+.grid-container {
+    display : grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 300px auto;
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+.grid-banner {
+    background-color: red;
+    grid-row: 1; 
+}
+
+.grid-input {
+    background-color: yellow;
+    grid-row: 2;
+}
+
+.grid-list {
+    background-color: green;
+    grid-row: 3;
+}
