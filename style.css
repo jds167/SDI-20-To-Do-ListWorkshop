@@ -11,16 +11,20 @@ h1 {
 }
 
 .grid-banner {
-    background-color: red;
+    background-color: lightcoral;
     grid-row: 1; 
 }
 
 .grid-input {
-    background-color: yellow;
+    background-color: lightgreen;
     grid-row: 2;
 }
 
 .grid-list {
-    background-color: green;
+    background-color: lightseagreen;
     grid-row: 3;
+}
+
+li {
+    list-style-type: none;
 }
